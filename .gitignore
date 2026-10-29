@@ -1,0 +1,43 @@
+.idea/
+.gradle/
+**/.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+__pycache__/
+*.pyc
+server/private/
+server/*.sqlite*
+server/.venv/
+.tools/
+private/
+**/node_modules/
+
+# Local deployment details and historical infrastructure records
+/SERVER_HANDOFF.md
+/server/deploy/
+/server/backup.py
+/server/verify_deployed.py
+/server/relay.py
+/server/test_relay.py
+/server/Caddyfile.example
+/server/champion.service.example
+/cloudbase/
+/clorabase/
+/research.md
+
+# Built installers contain the server address used at build time
+/releases/
+*.apk
+*.aab
+
+# Local credentials, databases and runtime output
+.env
+.env.*
+*.pem
+*.key
+*.sqlite*
+*.db
+*.log
+devices.json
